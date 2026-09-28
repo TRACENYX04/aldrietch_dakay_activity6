@@ -1,0 +1,51 @@
+
+===== CYBER THREAT LOG REPORT =====
+Name: Aldrietch Dakay
+Handle: TRACENYX
+Start Time: 2026-09-28 17:26:24.472675
+End Time: 2026-09-28 17:27:46.436834
+Duration (minutes): 1.37
+Score: 8/10
+Rating: ADVANCED
+---- Threat Logs ----
+Threat: HTTPS Web Exploit
+WARNING: Multiple authentication failures for service
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: SSH Brute Force Attack
+ALERT: Failed login attempt detected from 192.168.1.169 on port
+ALERT: Failed login attempt detected from 192.168.1.101 on port
+-------------------
+Threat: SMB Ransomware Attack
+ALERT: Possible brute force attempt detected
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: RDP Brute Force Attack
+ALERT: Failed login attempt detected from 192.168.1.149 on port
+ALERT: Failed login attempt detected from 192.168.1.79 on port
+-------------------
+Threat: Proxy Web Exploit
+ALERT: Failed login attempt detected from 192.168.1.192 on port
+ALERT: Failed login attempt detected from 192.168.1.88 on port
+-------------------
+Threat: SMTP Phishing Campaign
+ALERT: Possible brute force attempt detected
+CRITICAL: Ransomware activity suspected via
+-------------------
+Threat: HTTP Web Exploit
+ALERT: Failed login attempt detected from 192.168.1.86 on port
+ALERT: Failed login attempt detected from 192.168.1.194 on port
+-------------------
+Threat: FTP Credential Sniffing
+WARNING: Multiple authentication failures for service
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+Threat: POP3 Credential Sniffing
+ALERT: Failed login attempt detected from 192.168.1.112 on port
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: Telnet Credential Theft
+CRITICAL: Ransomware activity suspected via
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+===================================
